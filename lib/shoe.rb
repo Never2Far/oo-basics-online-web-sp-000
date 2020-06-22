@@ -7,7 +7,7 @@ end
 
 attr_reader :brand
 
-attr_accessor :coclor, :size, :material, :condition
+attr_accessor :color, :size, :material, :condition
 
 def cobble
   self.condition = "new"
